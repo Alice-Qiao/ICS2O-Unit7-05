@@ -11,7 +11,7 @@ function compare () {
     document.getElementById('relax').style.display = 'block'
   } else if (age >= '18') {
     document.getElementById('work').style.display = 'block'
-  } else if (age < 18 ) {
+  } else if (age < 18) {
     document.getElementById('school').style.display = 'block'
   }
 }
